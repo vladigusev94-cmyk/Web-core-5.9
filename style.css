@@ -186,13 +186,20 @@ font-weight: 500;
 
     label {
         display: inline-block;
-        margin: 6px;
         font-size: 14px;
         position: absolute;
+        font-family: Barlow;
+        font-weight: 400;
+        
 
     
 
 
+    }
+
+
+    input {
+        border: px solid black;
     }
 
 
@@ -238,11 +245,12 @@ font-weight: 500;
     display: flex;
     width: 100%;
     height: 50px;
-    gap: 100px;
+    gap: 80px;
     margin-top: 55px;
     padding-left: 90px;
     font-family: Barlow;
     font-weight: 400;
+ 
    
    
     
@@ -253,16 +261,15 @@ font-weight: 500;
 
 
 
-.tooltip1 {
+.Individual {
     position: relative;
-    display: inline-block;
     font-family: Barlow;
     font-weight: 400;
 
 }
 
 
-.tooltip1 .tooltiptext {
+.Individual .tooltiptext {
     visibility: hidden; 
     width: 200px;
     background-color: white;
@@ -279,21 +286,21 @@ font-weight: 500;
 
 }
 
-.tooltip1:hover .tooltiptext {
+.Individual:hover .tooltiptext {
     visibility: visible;
 }
 
 
 
-.tooltip2 {
+.Business {
     position: relative;
-    display: inline-block;
     font-family: Barlow;
 
 }
 
 
-.tooltip2 .tooltiptext2 {
+.Business .tooltiptext2 {
+
     visibility: hidden; 
     width: 200px;
     background-color: white;
@@ -309,7 +316,7 @@ font-weight: 500;
 
 }
 
-.tooltip2:hover .tooltiptext2 {
+.Business:hover .tooltiptext2 {
     visibility: visible;
     font-family: Barlow;
     font-weight: 400;
@@ -317,16 +324,15 @@ font-weight: 500;
 
 
 
-.tooltip3 {
+.IRA {
     position: relative;
-    display: inline-block;
     font-family: Barlow;
     font-weight: 400;
 
 }
 
 
-.tooltip3 .tooltiptext3 {
+.IRA .tooltiptext3 {
     visibility: hidden; 
     width: 200px;
     background-color: white;
@@ -344,7 +350,7 @@ font-weight: 500;
 
 }
 
-.tooltip3:hover .tooltiptext3 {
+.IRA:hover .tooltiptext3 {
     visibility: visible;
     font-family: Barlow;
     font-weight: 400;
@@ -352,16 +358,15 @@ font-weight: 500;
 
 
 
-.tooltip4 {
+.Trust{
     position: relative;
-    display: inline-block;
     font-family: Barlow;
     font-weight: 400;
 
 }
 
 
-.tooltip4 .tooltiptext4 {
+.Trust .tooltiptext4 {
     visibility: hidden; 
     width: 200px;
     background-color: white;
@@ -379,9 +384,38 @@ font-weight: 500;
 
 }
 
-.tooltip4:hover .tooltiptext4 {
+.Trust:hover .tooltiptext4 {
     visibility: visible;
-    font-family: barlow;
+    font-family: Barlow;
+    font-weight: 400;
+
+
+}
+
+
+
+    .first {
+    position: relative;
+   
+}
+    
+
+.information1{
+    position: absolute;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 90px;
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: 12px;
+    top: 2px;
+
+}
+
+
+.second {
+    position: relative;
 
 
 }
@@ -389,8 +423,56 @@ font-weight: 500;
 
 
 
-    
+.information2 {
+     position: absolute;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 90px;
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: 12px;
+    top: 2px;
+   
+}
+
+
+
+
+.third {
+    position: relative;
+}
+
+.information3 {
+     position: absolute;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 55px;
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: 12px;
+    top: 2px;
+}
   
+
+.fourth {
+    position: relative;
+}
+
+
+.information4 {
+      position: absolute;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    margin-left: 60px;
+    border: 1px solid black;
+    border-radius: 100%;
+    font-size: 12px;
+    top: 2px;
+}
+ 
 h2 {
     padding-left: 90px;
     margin-top: 50px;
@@ -412,7 +494,7 @@ h2 {
     font-family: Barlow;
     font-weight: 400;
     padding-left: 90px;
-    margin-top: 130px;
+    margin-top: 120px;
     font-size:14px;
 
 }
