@@ -1,1 +1,1 @@
-[Здравствуйте Павел, ссылка на github pages](https://vladigusev94-cmyk.github.io/Web-core-5.9/)
+[Здравствуйте Павел, ссылка на Github pages](https://vladigusev94-cmyk.github.io/Web-core-5.9/)
