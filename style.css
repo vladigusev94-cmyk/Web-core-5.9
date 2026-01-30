@@ -184,22 +184,30 @@ font-weight: 500;
 
 
 
-    label {
+    .left-label {
         display: inline-block;
         font-size: 14px;
         position: absolute;
         font-family: Barlow;
         font-weight: 400;
-        
-
-    
-
+        margin-left: 4px;
+        top: 3px;
+      
 
     }
 
 
-    input {
-        border: px solid black;
+
+
+    .right-label {
+        display: inline-block;
+        font-size: 14px;
+        position: absolute;
+        font-family: Barlow;
+        font-weight: 400;
+        margin-left: 4px;
+        top: 3px;
+      
     }
 
 
@@ -245,7 +253,7 @@ font-weight: 500;
     display: flex;
     width: 100%;
     height: 50px;
-    gap: 80px;
+    gap: 70px;
     margin-top: 55px;
     padding-left: 90px;
     font-family: Barlow;
@@ -271,8 +279,9 @@ font-weight: 500;
 
 .Individual .tooltiptext {
     visibility: hidden; 
-    width: 200px;
+    width: 190px;
     background-color: white;
+    margin-left: -40px;
     color: black;
     text-align: center;
     border-radius: 6px;
@@ -295,6 +304,7 @@ font-weight: 500;
 .Business {
     position: relative;
     font-family: Barlow;
+    font-weight: 400;
 
 }
 
@@ -302,8 +312,9 @@ font-weight: 500;
 .Business .tooltiptext2 {
 
     visibility: hidden; 
-    width: 200px;
+    width: 190px;
     background-color: white;
+    margin-left: -40px;
     color: black;
     text-align: center;
     border-radius: 6px;
@@ -334,8 +345,9 @@ font-weight: 500;
 
 .IRA .tooltiptext3 {
     visibility: hidden; 
-    width: 200px;
+    width: 190px;
     background-color: white;
+    margin-left: -25px;
     color: black;
     text-align: center;
     border-radius: 6px;
@@ -368,8 +380,9 @@ font-weight: 500;
 
 .Trust .tooltiptext4 {
     visibility: hidden; 
-    width: 200px;
+    width: 190px;
     background-color: white;
+    margin-left: -25px;
     color: black;
     text-align: center;
     border-radius: 6px;
@@ -381,6 +394,7 @@ font-weight: 500;
     font-family: Barlow;
     font-weight: 400;
     font-size: 12px;
+
 
 }
 
@@ -403,9 +417,9 @@ font-weight: 500;
 .information1{
     position: absolute;
     text-align: center;
-    width: 15px;
-    height: 15px;
-    margin-left: 90px;
+    margin-left: 5px;
+    width: 14px;
+    height: 14px;
     border: 1px solid black;
     border-radius: 100%;
     font-size: 12px;
@@ -426,9 +440,9 @@ font-weight: 500;
 .information2 {
      position: absolute;
     text-align: center;
-    width: 15px;
-    height: 15px;
-    margin-left: 90px;
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
     border: 1px solid black;
     border-radius: 100%;
     font-size: 12px;
@@ -446,9 +460,9 @@ font-weight: 500;
 .information3 {
      position: absolute;
     text-align: center;
-    width: 15px;
-    height: 15px;
-    margin-left: 55px;
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
     border: 1px solid black;
     border-radius: 100%;
     font-size: 12px;
@@ -462,11 +476,11 @@ font-weight: 500;
 
 
 .information4 {
-      position: absolute;
+    position: absolute;
     text-align: center;
-    width: 15px;
-    height: 15px;
-    margin-left: 60px;
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
     border: 1px solid black;
     border-radius: 100%;
     font-size: 12px;
