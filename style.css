@@ -1,6 +1,4 @@
-  
-   
-    @font-face {
+  @font-face {
     font-family: Barlow;
     src: url(fonts/barlow/Barlow-Regular.otf) format('opentype');
     font-weight: 400;
@@ -296,7 +294,9 @@ font-weight: 500;
 }
 
 .Individual:hover .tooltiptext {
-    visibility: visible;
+  visibility: visible;
+  Font-family: Barlow ;
+  font-weight: 400;
 }
 
 
@@ -309,7 +309,7 @@ font-weight: 500;
 }
 
 
-.Business .tooltiptext2 {
+.Business .tooltiptext {
 
     visibility: hidden; 
     width: 190px;
@@ -327,7 +327,7 @@ font-weight: 500;
 
 }
 
-.Business:hover .tooltiptext2 {
+.Business:hover .tooltiptext{
     visibility: visible;
     font-family: Barlow;
     font-weight: 400;
@@ -343,7 +343,7 @@ font-weight: 500;
 }
 
 
-.IRA .tooltiptext3 {
+.IRA .tooltiptext {
     visibility: hidden; 
     width: 190px;
     background-color: white;
@@ -362,7 +362,7 @@ font-weight: 500;
 
 }
 
-.IRA:hover .tooltiptext3 {
+.IRA:hover .tooltiptext {
     visibility: visible;
     font-family: Barlow;
     font-weight: 400;
@@ -378,11 +378,11 @@ font-weight: 500;
 }
 
 
-.Trust .tooltiptext4 {
+.Trust .tooltiptext {
     visibility: hidden; 
     width: 190px;
     background-color: white;
-    margin-left: -25px;
+    margin-left: -35px;
     color: black;
     text-align: center;
     border-radius: 6px;
@@ -398,37 +398,19 @@ font-weight: 500;
 
 }
 
-.Trust:hover .tooltiptext4 {
+.Trust:hover .tooltiptext {
     visibility: visible;
     font-family: Barlow;
     font-weight: 400;
 
 
 }
-
-
-
-    .first {
-    position: relative;
-   
-}
     
 
-.information1{
-    position: absolute;
-    text-align: center;
-    margin-left: 5px;
-    width: 14px;
-    height: 14px;
-    border: 1px solid black;
-    border-radius: 100%;
-    font-size: 12px;
-    top: 2px;
-
-}
 
 
-.second {
+
+ .first, .second, .third, .fourth {
     position: relative;
 
 
@@ -437,14 +419,14 @@ font-weight: 500;
 
 
 
-.information2 {
+.info-icon {
      position: absolute;
     text-align: center;
     width: 14px;
     height: 14px;
     margin-left: 5px;
     border: 1px solid black;
-    border-radius: 100%;
+    border-radius: 50%;
     font-size: 12px;
     top: 2px;
    
@@ -453,40 +435,6 @@ font-weight: 500;
 
 
 
-.third {
-    position: relative;
-}
-
-.information3 {
-     position: absolute;
-    text-align: center;
-    width: 14px;
-    height: 14px;
-    margin-left: 5px;
-    border: 1px solid black;
-    border-radius: 100%;
-    font-size: 12px;
-    top: 2px;
-}
-  
-
-.fourth {
-    position: relative;
-}
-
-
-.information4 {
-    position: absolute;
-    text-align: center;
-    width: 14px;
-    height: 14px;
-    margin-left: 5px;
-    border: 1px solid black;
-    border-radius: 100%;
-    font-size: 12px;
-    top: 2px;
-}
- 
 h2 {
     padding-left: 90px;
     margin-top: 50px;
