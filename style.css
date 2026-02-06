@@ -1,4 +1,4 @@
-  @font-face {
+    @font-face {
     font-family: Barlow;
     src: url(fonts/barlow/Barlow-Regular.otf) format('opentype');
     font-weight: 400;
@@ -29,12 +29,20 @@
 
 
 
+ html {
+        margin: 0;
+        padding: 0;
+        background-color:#EFF6FF ;
+    }
+
 main {
     display: flex;
     max-width: 1500px;
     max-height: 1000px;
     margin-left: 200px;
     margin-top: 60px;
+    background-color: transparent;
+
  
 }
 
@@ -51,8 +59,9 @@ main {
 
 .right-block {
     width: 50%;
-    background-color: whitesmoke;
-  
+    background-color: #ffffff;
+   
+    
 }
 
 img {
@@ -82,6 +91,8 @@ h1 {
     font-weight: 700;
     padding-top: 70px;
     padding-left: 90px;
+    color: #2A4A5C;
+   
 }
 
 
@@ -89,6 +100,8 @@ h1 {
     font-family: Barlow;
     font-weight: 400;
     padding-left: 90px;
+    color: #2A4A5C;
+    
 }
 
 .social-media {
@@ -118,7 +131,8 @@ h1 {
     height: 45px;
     background-color: #0076B6;
     color: white;
-    border: none;
+    border: none
+
 
 }
 
@@ -138,32 +152,26 @@ h1 {
 
 
 .divider {
-font-family: Barlow;
+display: flex;
 font-weight: 500;
- text-align: center;
- margin: 30px 0;
- color: black;
+ align-items: center;
+ color: #2A4A5C;
  position: relative;
 
 }
 
 
-.divider span {
-    background-color: whitesmoke;
-    padding: 0 10px;
-    
   
-}
 
-.divider::before {
-    content: "";
-    height: 1px;
-    background: wheat;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    z-index: -1;
+
+.divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: #EEEEEE;
+    margin:  40px 110px 40px 110px;
+    
+   
    
 }
 
@@ -175,6 +183,8 @@ font-weight: 500;
         display: block;
         position: relative;
         margin-left: 90px;
+        color: black;
+        
       
           
       
@@ -190,6 +200,7 @@ font-weight: 500;
         font-weight: 400;
         margin-left: 4px;
         top: 3px;
+        color: #AFAFAF;
       
 
     }
@@ -205,6 +216,7 @@ font-weight: 500;
         font-weight: 400;
         margin-left: 4px;
         top: 3px;
+        color: #AFAFAF;
       
     }
 
@@ -217,10 +229,11 @@ font-weight: 500;
     height: 45px;
     outline: none;
     border: none;
-    border: 1px solid lightgray;
+    border: 1px solid #EEEEEE;
     margin-right: 38px;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 2px;
+    
     
     }
 
@@ -230,9 +243,9 @@ font-weight: 500;
     height: 45px;
     outline: none;
     border: none;
-    border: 1px solid lightgray;
+    border: 1px solid #EEEEEE;
     margin-right: 38px;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 2px;
     }
 
@@ -256,6 +269,7 @@ font-weight: 500;
     padding-left: 90px;
     font-family: Barlow;
     font-weight: 400;
+    color: #2A4A5C;
  
    
    
@@ -278,9 +292,8 @@ font-weight: 500;
 .Individual .tooltiptext {
     visibility: hidden; 
     width: 190px;
-    background-color: white;
+    background-color:#EFF6FF ;
     margin-left: -40px;
-    color: black;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -313,9 +326,8 @@ font-weight: 500;
 
     visibility: hidden; 
     width: 190px;
-    background-color: white;
+    background-color:#EFF6FF ;
     margin-left: -40px;
-    color: black;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -324,6 +336,7 @@ font-weight: 500;
     top: 125%;
     left: 50%;
     font-size: 12px;
+    
 
 }
 
@@ -346,9 +359,8 @@ font-weight: 500;
 .IRA .tooltiptext {
     visibility: hidden; 
     width: 190px;
-    background-color: white;
+    background-color:#EFF6FF ;
     margin-left: -25px;
-    color: black;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -381,9 +393,8 @@ font-weight: 500;
 .Trust .tooltiptext {
     visibility: hidden; 
     width: 190px;
-    background-color: white;
+    background-color:#EFF6FF;
     margin-left: -35px;
-    color: black;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -394,6 +405,7 @@ font-weight: 500;
     font-family: Barlow;
     font-weight: 400;
     font-size: 12px;
+    box-shadow: 1px#3698FB;
 
 
 }
@@ -430,6 +442,7 @@ font-weight: 500;
     font-size: 12px;
     top: 2px;
    
+   
 }
 
 
@@ -438,6 +451,8 @@ font-weight: 500;
 h2 {
     padding-left: 90px;
     margin-top: 50px;
+    color: #2A4A5C;
+  
 
 }
 
@@ -448,6 +463,8 @@ h2 {
     margin-top: 20px;
     font-family: Barlow;
     font-weight: 400;
+    color: #2A4A5C;
+    
    
     
 }
@@ -458,6 +475,7 @@ h2 {
     padding-left: 90px;
     margin-top: 120px;
     font-size:14px;
+    color: #2A4A5C;
 
 }
 
