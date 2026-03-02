@@ -37,6 +37,7 @@
 
 main {
     display: flex;
+    position: relative;
     max-width: 1500px;
     max-height: 1000p;
     margin: 60px auto;
@@ -49,6 +50,7 @@ main {
     width: 50%;
     overflow: hidden;
     position: relative;
+    z-index: 0;
 
 
     
@@ -59,6 +61,9 @@ main {
     width: 50%;
     background-color: #ffffff;
     padding: 60px;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
    
     
 }
@@ -89,7 +94,6 @@ h1 {
     font-family: Barlow;
     font-weight: 700;
     padding-top: 70px;
-    padding-left: 90p;
     color: #2A4A5C;
    
 }
@@ -98,14 +102,12 @@ h1 {
 .subtitle {
     font-family: Barlow;
     font-weight: 400;
-    padding-left: 90p;
     color: #2A4A5C;
     
 }
 
 .social-media {
     display: flex;
-    padding-left: 90p;
     gap: 40px;
     padding-top: 40px; 
     font-family: Barlow;
@@ -194,7 +196,6 @@ body {
  .container {
         display: block;
         position: relative;
-        margin-left: 90p;
         color: black;
         
       
@@ -298,7 +299,7 @@ body {
 }
 
 
-.Individual .tooltiptext {
+    .Individual .tooltiptex {
     visibility: hidden; 
     width: 190px;
     background-color:#EFF6FF ;
@@ -331,7 +332,7 @@ body {
 }
 
 
-.Business .tooltiptext {
+.Business .tooltiptex {
 
     visibility: hidden; 
     width: 190px;
@@ -365,7 +366,7 @@ body {
 }
 
 
-.IRA .tooltiptext {
+.IRA .tooltiptex {
     visibility: hidden; 
     width: 190px;
     background-color:#EFF6FF ;
@@ -399,11 +400,11 @@ body {
 }
 
 
-.Trust .tooltiptext {
+.Trust .tooltiptex {
     visibility: hidden; 
     width: 190px;
     background-color:#EFF6FF;
-    margin-left: -35px;
+   
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -429,7 +430,24 @@ body {
     
 
 
+ 
 
+   .tooltiptext {
+    visibility: hidden;
+    width: 190px;
+    background-color: #EFF6FF;
+    text-align: left;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 10;
+
+    top: 100%;
+    left: 0%;
+    transform: translateX(-10%);
+    margin-top: 12px;
+    font-size: 12px;
+}
 
  .first, .second, .third, .fourth {
     position: relative;
@@ -460,7 +478,10 @@ body {
 h2 {
     font-family: Barlow;
     font-weight: 700;
+<<<<<<< HEAD
     padding-left: 90p;
+=======
+>>>>>>> 9e4fb9e (changes)
     margin-top: 50px;
     color: #2A4A5C;
   
@@ -470,7 +491,7 @@ h2 {
 
 
 .investor-type{
-    padding-left: 90p;
+   
     margin-top: 20px;
     font-family: Barlow;
     font-weight: 400;
@@ -483,7 +504,6 @@ h2 {
 .Terms {
     font-family: Barlow;
     font-weight: 400;
-    padding-left: 90p;
     margin-top: 120px;
     font-size:14px;
     color: #2A4A5C;
@@ -496,7 +516,6 @@ h2 {
     background-color: #3698FB; 
     color:white;  
     margin-top: 80px;
-    margin-left: 90p;
     border: none;
     border-radius: 4px;
 }
@@ -697,3 +716,9 @@ h2 {
         }
     }
 
+    
+    @media (max-width: 320px) {
+        .tooltiptext {
+            display: none;
+        }
+    }
